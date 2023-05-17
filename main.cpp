@@ -5,10 +5,10 @@ int restar(int, int);
 
 int main()
 {
-    int m = 5, n = 10;
+    int m = 5, n = 15;
 
-    cout << restar(m, n);
-
+    cout << "El resultado de tu resta es: " << restar(m, n);
+    
     return 0;
 }
 
