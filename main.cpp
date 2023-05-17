@@ -1,12 +1,18 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){
-    int num = 0;
+int sumar(int, int);
 
-    cout << "Tu número es: " << num;
+int main()
+{
+    int m = 5, n = 10;
 
-    
+    cout << sumar(m, n);
+
     return 0;
+}
+
+int sumar(int m, int n)
+{
+    return m + n;
 }
