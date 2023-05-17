@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int sumar(int, int);
+int restar(int, int);
 
 int main()
 {
     int m = 5, n = 10;
 
-    cout << sumar(m, n);
+    cout << restar(m, n);
 
     return 0;
 }
 
-int sumar(int m, int n)
+int restar(int m, int n)
 {
-    return m + n;
+    return m - n;
 }
